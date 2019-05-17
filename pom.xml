@@ -495,4 +495,20 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://10.9.43.31:8082/repository/maven-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>maven-snapshots</id>
+      <name>maven-snapshots</name>
+      <url>http://10.9.43.31:8082/repository/maven-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>          
 </project>
